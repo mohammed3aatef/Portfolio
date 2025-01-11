@@ -1,0 +1,79 @@
+/* library */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* fonts */
+@font-face {
+    font-family: font-1 ;
+    src: url(../fonts/ALGER.TTF);
+}
+@font-face {
+    font-family: font-2 ;
+    src: url(../fonts/SHOWG.TTF);
+}
+@font-face {
+    font-family: font-3 ;
+    src: url(../fonts/STENCIL.TTF);
+}
+/* nav */
+.nav-link{   
+    font-family: font-3;
+}
+.navbar-text{
+    font-family:font-3;
+}
+/* sections */
+section {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+section:nth-child(odd){
+    background-color: rgb(45, 45, 45);
+}
+/* home-section */
+#home div h1{
+    font-size: 60px;
+    font-family: font-1 ;
+}
+
+#home div h1 .name{
+    font-family: font-2 ;
+}
+/* about-section */
+.about{
+    font-family: font-2;
+}
+/* projects-section */
+#project .web-link a{
+    color: black;
+    background-color: #ffc107;
+}
+#project .web-link a:hover{
+    background-color: black;
+    color:  #ffc107;
+}
+/* skills-section */
+.skills{
+    font-family: font-2;
+}
+.skills-icon{
+    font-family: font-1;
+}
+/* contact-section */
+.contact{
+    font-family: font-2;
+}
+.contact-icon{
+    font-family: font-1;
+}
+/* footer */
+footer{
+    font-family: font-3;
+}
